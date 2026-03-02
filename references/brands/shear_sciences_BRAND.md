@@ -106,7 +106,7 @@ To drive higher engagement on Reels and TikTok, mimic the "Authentic Creator" ae
 When building AI pipelines, treat each of the following as a reusable UGC scene category. Always keep the Shear Sciences™ NanoSpray bottle immutable (no cap, visible nozzle) and, where possible, align the environment with the approved luxury settings (private jets, elite gyms, yachts, pristine water, spas, luxury condos/apartments, ultra-luxury real estate, CEO offices).
 
 - **Mirror Selfie Style (Influencer Look)**
-  - **Template**: "A candid mirror selfie of a woman in her luxury bedroom holding the Shear Sciences NanoSpray, natural lighting, slightly messy background, phone camera quality, no professional lighting, casual outfit, authentic UGC vibe."
+  - **Template**: "A candid mirror selfie of a woman in her luxury bedroom holding the Shear Sciences NanoSpray, natural lighting, pristine background, phone camera quality, no professional lighting, elegant designer outfit, authentic UGC vibe."
 
 - **Just Unboxed It Shot**
   - **Template**: "A realistic unboxing moment of the Shear Sciences NanoSpray on a premium kitchen table in a luxury condo, torn packaging, natural daylight, candid shot, hands opening the box, cozy high-end home environment."
@@ -125,7 +125,7 @@ When building AI pipelines, treat each of the following as a reusable UGC scene 
   - **Template**: "A casual coffee shop or executive lounge table scene with the Shear Sciences NanoSpray next to a laptop and coffee cup, natural window light, slight depth of field, authentic lifestyle photography, phone camera quality."
 
 - **Gym Bag Shot**
-  - **Template**: "An open gym bag with workout clothes and the Shear Sciences NanoSpray inside, candid shot, elite gym or locker room setting, slightly messy but natural."
+  - **Template**: "An open premium leather gym bag with elegant workout clothes and the Shear Sciences NanoSpray inside, candid shot, elite gym or locker room setting, meticulously organized and natural."
 
 - **Car Selfie / Dashboard Shot**
   - **Template**: "A person sitting in a luxury car holding the Shear Sciences NanoSpray, sunlight through the windshield, casual selfie angle, phone camera quality, authentic UGC feel."
@@ -133,8 +133,8 @@ When building AI pipelines, treat each of the following as a reusable UGC scene 
 - **Reaction Face Shot**
   - **Template**: "Close-up selfie of a person reacting excitedly while holding the Shear Sciences NanoSpray, exaggerated expression, natural indoor lighting, casual phone photo."
 
-- **Messy Real Life Shot**
-  - **Template**: "The Shear Sciences NanoSpray on a cluttered bathroom sink with everyday items around it, natural lighting, realistic imperfections, candid UGC style."
+- **Pristine Real Life Shot**
+  - **Template**: "The Shear Sciences NanoSpray on a pristine marble bathroom sink with high-end everyday items around it, natural lighting, elegant realism, candid UGC style."
 
 - **Advanced Realism Cues**
   - Add descriptors like "slightly imperfect", "natural skin texture", "phone camera quality", "grainy", "soft motion blur", "slightly overexposed window light", "not professionally staged", "authentic social media vibe" to keep UGC looking real and not like a studio ad.
@@ -142,8 +142,17 @@ When building AI pipelines, treat each of the following as a reusable UGC scene 
 ### **Prompting Framework for Agents**
 
 - **Image Generation**:
-  - **Negative Prompt Rules**: No distorted labels, no multiple bottles, no cluttered backgrounds, no synthetic-looking text, no bottle cap, no missing nozzle, not sprayed on face, not a facial cosmetic.
+  - **Negative Prompt Rules**: No distorted labels, no multiple bottles, no cluttered backgrounds, no synthetic-looking text, no bottle cap, no missing nozzle, not sprayed on face, not a facial cosmetic, no text hallucination, no altered geometry.
+  - **CRITICAL**: The product bottle and label must be a 1:1 photorealistic clone of the provided reference images. Do not invent any new text, do not alter the bottle geometry, do not alter the nozzle.
   - **Aspect Ratios (Format)**: Default to a **portrait 4:5 Instagram feed post ratio** (e.g., 1080×1350) for all Shear Sciences images. Do **not** use 9:16 vertical story format unless it is explicitly requested. Square 1:1 can be used as a secondary option for grid posts if specified.
   - **Positive Visual Cues**: "Photorealistic", "8K Resolution", "Cinematic Depth of Field", "Pristine Glass Textures", "UST-processed nanoemulsion mist".
 - **Caption Generation**:
   - **Output Rule**: When generating a social media post, output ONLY the generated caption text. Do not include any introductory remarks, explanations, or conversational filler.
+
+### **Healthy Wealth Triggers (Background Elements)**
+
+If it’s just a hand holding a product, always add one or more of these subtle "wealthy health" elements in the background. Wealthy health doesn’t look loud. It looks calm, bright, minimal, and intentional.
+
+- **🥑 Nutrition Cues**: Fresh avocado toast on sourdough, cold-pressed green juice in a glass bottle, organic berries in a ceramic bowl, matcha latte in a minimalist mug, chia pudding in glass jar, almonds + walnuts in marble bowl.
+- **🌿 Wellness Signals**: Morning sunlight through sheer curtains, minimalist white kitchen, marble or stone countertop, fresh eucalyptus or monstera plant, luxury premium leather gym bag in background, yoga mat near a bright window, spa-like bathroom with rolled white towels.
+- **💎 Wealth Signals (Subtle, Not Flashy)**: Modern penthouse window view, ocean view balcony, designer sunglasses on table, MacBook slightly blurred in background, clean neutral interior with natural light, gold or brushed metal accents.
