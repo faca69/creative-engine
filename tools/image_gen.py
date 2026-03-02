@@ -34,11 +34,11 @@ def _detect_aspect_ratio(prompt):
     for ratio in VALID_RATIOS:
         if prompt.startswith(f"{ratio}.") or prompt.startswith(f"{ratio} "):
             return ratio
-    return "9:16"
+    return "4:5"
 
 
 def generate_ugc_image(prompt, reference_paths=None, reference_urls=None,
-                       aspect_ratio="9:16", resolution="4K",
+                       aspect_ratio="4:5", resolution="4K",
                        model=None, provider=None):
     """
     Generate a single UGC image (submit + poll if async, or direct if sync).
