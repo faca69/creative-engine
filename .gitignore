@@ -155,10 +155,10 @@ cython_debug/
 # User-specific
 references/outputs/
 references/inputs/
-*.mp4
-*.mov
-*.png
-*.jpg
-*.jpeg
-*.webp
-*.ps1
+# *.mp4
+# *.mov
+# *.png
+# *.jpg
+# *.jpeg
+# *.webp
+# *.ps1
