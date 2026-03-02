@@ -56,12 +56,22 @@ Shear Sciences is a pioneer in wellness technology, using patented UltraShear Te
 - **Style**: High-fidelity, sharp focus on the label, with natural-looking shadows and lighting.
 
 ### **Creative Environments (Scenery)**
-When generating lifestyle or ad content, place the immutable bottle in high-end, premium environments that reflect the "Biohacking Luxury" aesthetic. The goal is to visually communicate precision-science meeting elite lifestyle.
+When generating lifestyle or ad content, the immutable Shear Sciences™ NanoSpray bottle must appear only in a defined set of ultra-premium environments that match our "healthy, rich, smart" audience and executive positioning.
 
 **Environment Guidelines**:
-- **Aesthetics**: High-end, premium, futuristic, and minimalist. Use clean lines, sophisticated textures (marble, teak, brushed metal), and professional lighting (natural golden hour, clinical lab glows, or executive office lighting).
-- **Themes**: Longevity, high-performance, scientific innovation, and elite wellness rituals. 
-- **Creativity**: Be bold and imaginative with the setting. The environment should feel exclusive and aspirational—whether it's an advanced bio-research facility, a luxury travel setting, a high-performance training ground, or an abstract visualization of molecular physics.
+- **Approved Environments (always choose from this list)**:
+  - inside a private jet or business-class jet cabin
+  - in elite, high-end gyms or performance training facilities
+  - on or inside luxury yachts
+  - on, over, or surrounded by pristine water (ocean, infinity pool, open sea)
+  - in serene, high-end spas or wellness retreats
+  - inside a luxury condo
+  - inside a high-end city apartment
+  - within ultra-luxury real estate interiors (penthouses, modern mansions, glass-walled villas)
+  - in a CEO or executive corner office or boardroom setting
+- **Aesthetics**: High-end, premium, futuristic, and minimalist. Use clean lines, sophisticated textures (marble, teak, brushed metal), and professional lighting (natural golden hour, clinical lab glows, or executive office lighting) within the approved environments above.
+- **Themes**: Longevity, high-performance, scientific innovation, and elite wellness rituals for wealthy, high-functioning individuals and executives.
+- **Creativity**: Be bold and imaginative with framing and composition, but do not introduce new environment categories outside the approved list.
 - **Vibe**: The product is the hero. The background should enhance its premium, "disruptive" nature without cluttering the frame.
 
 ### **UGC (User-Generated Content) Style**
