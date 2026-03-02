@@ -26,7 +26,7 @@ You must **never** post a generic, default caption. How you generate the caption
 
 Instead, follow this fallback flow to gather enough context for a great caption:
 
-1. **Check for a brand file first.** Look for any `*_BRAND.md` file in the `references/` folder. If one exists, read it and use the brand voice, tone, and audience to craft the caption.
+1. **Check for a brand file first.** Look for any `*_BRAND.md` file in the `references/brands` folder. If one exists, read it and use the brand voice, tone, and audience to craft the caption.
 2. **If no brand file exists, ask the user.** Prompt them with something like:
    > "I can't peek inside videos directly — could you give me a quick description of what's in this video? Or point me to a brand guidelines file? That way I can write a caption that really nails the vibe."
 3. **Use whatever context is available.** The filename, the user's request, any accompanying notes, and the target platforms all provide clues. For example, a file called `gym_motivation_clip.mp4` tells you the general theme even without watching it.

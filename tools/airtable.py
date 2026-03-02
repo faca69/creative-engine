@@ -77,7 +77,7 @@ def create_ugc_table():
                 "options": {
                     "choices": [
                         {"name": "Kling 3.0", "color": "purpleBright"},
-                        {"name": "Sora 2", "color": "blue"},
+                        {"name": "Sora 2", "color": "blueLight1"},
                         {"name": "Sora 2 Pro", "color": "blueBright"},
                         {"name": "Veo 3.1", "color": "greenBright"},
                     ]

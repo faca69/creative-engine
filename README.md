@@ -20,6 +20,7 @@ A ready-to-use AI agent template for creating visual ad content at scale. Genera
 
 ### Workflows (`.agent/workflows/`)
 - **30-Day Campaign** — Create a full 30-day marketing campaign: brand discovery → content calendar → AI image generation → auto-scheduling
+- **10-Day Campaign** — A shorter version for a quick 10-day content presence
 
 ### Tools (`tools/`)
 - **Image Generation** — Generate images with Nano Banana Pro via Google AI Studio
@@ -94,6 +95,8 @@ Open the Antigravity chat and try:
 | **1** | Multi-platform post | Post a single piece of media to multiple platforms in one command |
 | **1** | Scheduled posting | Stagger posts across days/weeks with automatic scheduling |
 | **2** | 30-day campaign | Full brand discovery → image generation → auto-scheduling pipeline |
+| **2** | 10-day campaign | A condensed version for a quick 10-day content presence |
+
 
 ---
 
