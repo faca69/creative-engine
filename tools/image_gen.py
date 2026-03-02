@@ -38,7 +38,7 @@ def _detect_aspect_ratio(prompt):
 
 
 def generate_ugc_image(prompt, reference_paths=None, reference_urls=None,
-                       aspect_ratio="9:16", resolution="1K",
+                       aspect_ratio="9:16", resolution="4K",
                        model=None, provider=None):
     """
     Generate a single UGC image (submit + poll if async, or direct if sync).
@@ -83,7 +83,7 @@ def generate_ugc_image(prompt, reference_paths=None, reference_urls=None,
 
 def generate_for_record(record, reference_paths=None, reference_urls=None,
                         model=None, provider=None, aspect_ratio=None,
-                        resolution="1K", num_variations=2):
+                        resolution="4K", num_variations=2):
     """
     Generate image variations for a single Airtable record.
 
@@ -94,7 +94,7 @@ def generate_for_record(record, reference_paths=None, reference_urls=None,
         model: Image model name
         provider: Provider override
         aspect_ratio: Override aspect ratio (default: auto-detect from prompt, fallback "9:16")
-        resolution: Image resolution — "1K", "2K", or "4K" (default: "1K")
+        resolution: Image resolution — "1K", "2K", or "4K" (default: "4K")
         num_variations: Number of image variations to generate, 1 or 2 (default: 2)
 
     Returns:
@@ -182,7 +182,7 @@ def _resolve_record_model(record, fallback_model=None, fallback_provider=None):
 
 
 def generate_batch(records, reference_paths=None, model=None, provider=None,
-                   aspect_ratio=None, resolution="1K", num_variations=2):
+                   aspect_ratio=None, resolution="4K", num_variations=2):
     """
     Generate images for multiple Airtable records.
 
@@ -199,7 +199,7 @@ def generate_batch(records, reference_paths=None, model=None, provider=None,
         model: Fallback image model name (default: config.DEFAULT_IMAGE_MODEL)
         provider: Provider override applied to all records (default: model's default)
         aspect_ratio: Override aspect ratio for all records (default: auto-detect from prompt)
-        resolution: Image resolution — "1K", "2K", or "4K" (default: "1K")
+        resolution: Image resolution — "1K", "2K", or "4K" (default: "4K")
         num_variations: Images per record, 1 or 2 (default: 2)
 
     Returns:
