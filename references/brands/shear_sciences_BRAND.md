@@ -91,53 +91,61 @@ When generating lifestyle or ad content, the immutable Shear Sciences™ NanoSpr
 
 To drive higher engagement on Reels and TikTok, mimic the "Authentic Creator" aesthetic while maintaining the product's premium feel.
 
-- **Handheld Perspective**: Slight motion blur,POV shots (first-person), and "unpolished" framing (never tripod-perfect).
+- **Primary Subject: Fitness-Forward Women.** The default UGC subject is a fit, active woman (yoga, pilates, functional training). She represents the wellness-forward, health-conscious audience. She should appear naturally athletic — not bodybuilder — in luxury activewear (e.g., Alo Yoga, Lululemon-tier apparel). Hair tied back or natural, minimal makeup, glowing skin.
+- **Handheld Perspective**: Slight motion blur, POV shots (first-person), and "unpolished" framing (never tripod-perfect).
 - **The "Hold":** A clean, real human hand (high-end watch or minimalist ring for consistency) holding the immutable bottle clearly in the center.
 - **Natural Lighting**: Use direct sunlight or "morning glow" from a window. Avoid studio lighting in UGC styles.
 - **Contextual Settings**:
-  - **Morning Ritual**: Next to a coffee or a clean water glass on a marble countertop.
-  - **Post-Workout**: In a gym bag or on a yoga mat.
-  - **Travel/On-the-Go**: Held up against a scenic background (ocean, skyline).
-  - **In Use (Action Shot)**: The character actively spraying the NanoSpray directly **into their open mouth**. The nozzle must be aimed at the mouth, never the face or skin.
+  - **Morning Ritual**: Next to a coffee or a clean water glass on a marble countertop, woman in yoga wear starting her day.
+  - **Post-Workout / Yoga**: On a yoga mat or next to a gym bag after a session — the woman is glowing, calm, and centered.
+  - **Travel/On-the-Go**: Held up against a scenic background (ocean, skyline) by a woman in athletic casual wear.
+  - **In Use (Action Shot)**: The woman actively spraying the NanoSpray directly **into her open mouth**. The nozzle must be aimed at the mouth, never the face or skin.
 - **Video Cues**: Quick cuts, "Tap the screen" focus transitions, and text-to-speech style captions.
 
 #### **UGC Scene Categories (for automation/randomization)**
 
-When building AI pipelines, treat each of the following as a reusable UGC scene category. Always keep the Shear Sciences™ NanoSpray bottle immutable (no cap, visible nozzle) and, where possible, align the environment with the approved luxury settings (private jets, elite gyms, yachts, pristine water, spas, luxury condos/apartments, ultra-luxury real estate, CEO offices).
+When building AI pipelines, treat each of the following as a reusable UGC scene category. Always keep the Shear Sciences™ NanoSpray bottle immutable (no cap, visible nozzle) and, where possible, align the environment with the approved luxury settings (private jets, elite gyms, yachts, pristine water, spas, luxury condos/apartments, ultra-luxury real estate, CEO offices). **The default subject in every UGC scene is a fit, wellness-forward woman in luxury activewear** (yoga, pilates, athleisure) unless otherwise specified.
 
 - **Mirror Selfie Style (Influencer Look)**
-  - **Template**: "A candid mirror selfie of a woman in her luxury bedroom holding the Shear Sciences NanoSpray, natural lighting, pristine background, phone camera quality, no professional lighting, elegant designer outfit, authentic UGC vibe."
+  - **Template**: "A candid mirror selfie of a fit woman in luxury yoga apparel in her bright luxury bedroom, holding the Shear Sciences NanoSpray post-workout, natural lighting, pristine background, phone camera quality, no professional lighting, glowing skin, authentic UGC vibe."
 
 - **Just Unboxed It Shot**
-  - **Template**: "A realistic unboxing moment of the Shear Sciences NanoSpray on a premium kitchen table in a luxury condo, torn packaging, natural daylight, candid shot, hands opening the box, cozy high-end home environment."
+  - **Template**: "A realistic unboxing moment of the Shear Sciences NanoSpray on a premium kitchen table in a luxury condo, a woman in sleek athleisure wear opening the box, torn packaging, natural daylight, candid shot, cozy high-end home environment."
 
 - **POV Shot (Point of View)**
-  - **Template**: "POV shot of someone holding the Shear Sciences NanoSpray while moving through a luxury setting (city street from a penthouse view, private jet aisle, elite gym, yacht deck), slight motion blur, natural daylight, casual lifestyle vibe."
+  - **Template**: "POV shot of a fit woman holding the Shear Sciences NanoSpray while moving through a luxury setting (elite gym, yoga studio, yacht deck, penthouse view), slight motion blur, natural daylight, casual active lifestyle vibe."
 
 - **Getting Ready With Me (GRWM)**
-  - **Template**: "A casual morning routine scene, a person using the Shear Sciences NanoSpray in a bathroom mirror of a luxury condo or penthouse, warm lighting, slightly imperfect phone camera quality, authentic social media vibe."
+  - **Template**: "A casual morning routine scene, a woman in yoga wear using the Shear Sciences NanoSpray in a bathroom mirror of a luxury condo or penthouse before her workout, warm lighting, slightly imperfect phone camera quality, authentic social media vibe."
+
+- **Yoga Flow Shot** *(NEW — Fitness Focus)*
+  - **Template**: "A fit woman on a premium yoga mat in a bright luxury penthouse or on a yacht deck at golden hour, mid-pose (warrior II or tree pose), the Shear Sciences NanoSpray placed prominently next to her mat, natural lighting, serene and aspirational, candid UGC vibe."
+  - **Alt**: "A woman finishing a yoga session on a rooftop with an ocean view, sitting cross-legged and holding the Shear Sciences NanoSpray, post-session glow, peaceful morning light, phone camera quality."
+
+- **Post-Workout Glow Shot** *(NEW — Fitness Focus)*
+  - **Template**: "Close-up of a glowing, active woman spraying the Shear Sciences NanoSpray into her mouth right after a workout, luxury gym or pristine studio background, natural sweat glow, slightly overexposed window light, authentic fitness creator vibe."
 
 - **Before & After Setup**
-  - **Template**: "Split-screen before and after concept using the Shear Sciences NanoSpray, realistic lighting, same environment, natural results, no over-editing."
-  - **Alt**: "A bathroom counter with the Shear Sciences NanoSpray and sticky notes labeled 'before' and 'after', natural lighting, realistic expectations."
+  - **Template**: "Split-screen before and after concept: a fit woman holding the Shear Sciences NanoSpray, pre-workout calm vs. post-workout glow, realistic lighting, same luxury environment, natural results, no over-editing."
+  - **Alt**: "A bathroom counter with the Shear Sciences NanoSpray and sticky notes labeled 'before' and 'after', yoga mat visible in the background, natural lighting, realistic expectations."
 
 - **Coffee Shop / Laptop Lifestyle**
-  - **Template**: "A casual coffee shop or executive lounge table scene with the Shear Sciences NanoSpray next to a laptop and coffee cup, natural window light, slight depth of field, authentic lifestyle photography, phone camera quality."
+  - **Template**: "A woman in stylish athleisure at a casual coffee shop or executive lounge table, the Shear Sciences NanoSpray next to a laptop and matcha latte, natural window light, slight depth of field, authentic lifestyle photography, phone camera quality."
 
 - **Gym Bag Shot**
-  - **Template**: "An open premium leather gym bag with elegant workout clothes and the Shear Sciences NanoSpray inside, candid shot, elite gym or locker room setting, meticulously organized and natural."
+  - **Template**: "A fit woman sitting on a bench in an elite gym or yacht deck next to an open premium leather gym bag, the Shear Sciences NanoSpray in her hand, luxury yoga apparel, candid shot, meticulously organized and natural."
 
 - **Car Selfie / Dashboard Shot**
-  - **Template**: "A person sitting in a luxury car holding the Shear Sciences NanoSpray, sunlight through the windshield, casual selfie angle, phone camera quality, authentic UGC feel."
+  - **Template**: "A fit woman in athleisure sitting in a luxury car holding the Shear Sciences NanoSpray after leaving the gym or yoga studio, sunlight through the windshield, casual selfie angle, phone camera quality, authentic UGC feel."
 
 - **Reaction Face Shot**
-  - **Template**: "Close-up selfie of a person reacting excitedly while holding the Shear Sciences NanoSpray, exaggerated expression, natural indoor lighting, casual phone photo."
+  - **Template**: "Close-up selfie of a fit woman reacting excitedly while holding the Shear Sciences NanoSpray post-workout, glowing skin, exaggerated expression, natural indoor lighting, casual phone photo."
 
 - **Pristine Real Life Shot**
-  - **Template**: "The Shear Sciences NanoSpray on a pristine marble bathroom sink with high-end everyday items around it, natural lighting, elegant realism, candid UGC style."
+  - **Template**: "The Shear Sciences NanoSpray on a pristine marble bathroom sink next to a rolled yoga mat, high-end everyday items, natural lighting, elegant realism, candid UGC style."
 
 - **Advanced Realism Cues**
-  - Add descriptors like "slightly imperfect", "natural skin texture", "phone camera quality", "grainy", "soft motion blur", "slightly overexposed window light", "not professionally staged", "authentic social media vibe" to keep UGC looking real and not like a studio ad.
+  - Add descriptors like "slightly imperfect", "natural skin texture", "phone camera quality", "grainy", "soft motion blur", "slightly overexposed window light", "not professionally staged", "authentic social media vibe", "post-workout glow", "natural athletic build" to keep UGC looking real and not like a studio ad.
 
 ### **Prompting Framework for Agents**
 
